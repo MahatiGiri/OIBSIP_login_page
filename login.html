@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Home</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="login.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="login">
+          <h1>Login</h1>
+          <form action="" method="POST">
+              <div class="txt_field">
+                  <input type="text" name="text" id ="username" required>
+                  <span></span>
+                  <label>Username</label>
+              </div>
+              <div class="txt_field">
+                  <input type="password" name="password" id="password" required>
+                  <span></span>
+                  <label>Password</label>
+              </div>
+              <div class="pass">Forget Password?</div>
+              <input name="submit" type="Submit" id="submit" value="Login" onclick="validate()">
+              <div class="signup_link">
+                  Not a Member ? <a href="signup.html">Signup</a>
+              </div>
+          </form>
+      </div>
+    </div>
+    <div class="footer">
+      <p>© Mahati Giri</p>
+    </div>
+    <script src="login.js"></script>
+  </body>
+</html>
